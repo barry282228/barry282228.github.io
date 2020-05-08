@@ -7,12 +7,12 @@ svg {
 }
 
 body {
-  background-color: rgba(34, 34, 34, 0.9);
+  background-color: transparent;
 }
 
 path {
-  stroke: white;
-  fill: transparent;
+  stroke:rgba(34, 34, 34, 0.9);
+  fill: #D2D89D;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -25,7 +25,7 @@ path:hover {
   position: absolute;
   right: 20px;
   top: 20px;
-  color: white;
+  color: rgba(34, 34, 34, 0.9);
   font-size: 25px;
 }
 
